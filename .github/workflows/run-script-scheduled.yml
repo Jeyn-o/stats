@@ -1,0 +1,33 @@
+name: Scheduled Torn Stats Run
+
+on:
+  schedule:
+    - cron: "0 16 * * 6"
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Node script
+        run: |
+          node script.js
+          TIME=$(date +"%Y-%m-%d_%H-%M-%S")
+          mv stats.txt "stats_auto_${TIME}.txt" || mv challenge.json "stats_auto_${TIME}.txt"
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats_auto_*.txt
+          git commit -m "Auto run: stats_auto file generated"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
