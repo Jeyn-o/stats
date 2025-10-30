@@ -18,7 +18,7 @@
     const out = document.getElementById('output');
 
     btn.addEventListener('click', async () => {
-      const token = prompt("Enter your GitHub Personal Access Token:","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");
+      const token = prompt("Enter your GitHub Personal Access Token:");
       if (!token) return alert("Cancelled.");
 
       out.textContent = "Triggering workflow...";
