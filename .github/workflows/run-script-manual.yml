@@ -1,0 +1,33 @@
+name: Manual Torn Stats Run
+
+on:
+  repository_dispatch:
+    types: [run-node-script]
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Node script
+        run: |
+          node script.js
+          TIME=$(date +"%Y-%m-%d_%H-%M-%S")
+          mv stats.txt "stats_man_${TIME}.txt" || mv challenge.json "stats_man_${TIME}.txt"
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats_man_*.txt
+          git commit -m "Manual run: stats_man file generated"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
