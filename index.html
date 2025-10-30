@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Manual Torn Stats Run</title>
+  <style>
+    body { font-family: sans-serif; padding: 40px; }
+    button { padding: 12px 24px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Manual Torn Stats Run</h1>
+  <button id="run">Run Script Now</button>
+  <pre id="output"></pre>
+
+  <script>
+    const btn = document.getElementById('run');
+    const out = document.getElementById('output');
+
+    btn.addEventListener('click', async () => {
+      const token = prompt("Enter your GitHub Personal Access Token:");
+      if (!token) return alert("Cancelled.");
+
+      out.textContent = "Triggering workflow...";
+
+      const resp = await fetch('https://api.github.com/repos/Jeyn-o/stats/dispatches', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/vnd.github.v3+json',
+          'Authorization': `token ${token}`,
+        },
+        body: JSON.stringify({
+          event_type: 'run-node-script'
+        })
+      });
+
+      if (resp.ok) {
+        out.textContent = "✅ Workflow triggered! Check the Actions tab.";
+      } else {
+        const msg = await resp.text();
+        out.textContent = `❌ Failed: ${resp.status} ${msg}`;
+      }
+    });
+  </script>
+</body>
+</html>
