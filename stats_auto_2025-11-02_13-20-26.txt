@@ -1,0 +1,602 @@
+[
+  {
+    "id": 2162860,
+    "username": "daddyg",
+    "value": 190827,
+    "in_faction": true
+  },
+  {
+    "id": 1166445,
+    "username": "Top",
+    "value": 127326,
+    "in_faction": true
+  },
+  {
+    "id": 2408196,
+    "username": "iam3vaj",
+    "value": 114892,
+    "in_faction": true
+  },
+  {
+    "id": 2302062,
+    "username": "BoozHound",
+    "value": 105486,
+    "in_faction": true
+  },
+  {
+    "id": 2675301,
+    "username": "ExiledAstronaut",
+    "value": 104995,
+    "in_faction": true
+  },
+  {
+    "id": 2419133,
+    "username": "Jeyno",
+    "value": 95069,
+    "in_faction": true
+  },
+  {
+    "id": 2184227,
+    "username": "SassyMcSlacker",
+    "value": 94171,
+    "in_faction": true
+  },
+  {
+    "id": 2427687,
+    "username": "Jubjub82180",
+    "value": 92083,
+    "in_faction": true
+  },
+  {
+    "id": 2679269,
+    "username": "TsanMan",
+    "value": 83081,
+    "in_faction": true
+  },
+  {
+    "id": 2736671,
+    "username": "Twitt3y",
+    "value": 73094,
+    "in_faction": true
+  },
+  {
+    "id": 2541399,
+    "username": "Theurgy",
+    "value": 72267,
+    "in_faction": true
+  },
+  {
+    "id": 1946159,
+    "username": "smyles",
+    "value": 68680,
+    "in_faction": true
+  },
+  {
+    "id": 2621654,
+    "username": "Hstains",
+    "value": 66640,
+    "in_faction": true
+  },
+  {
+    "id": 2335586,
+    "username": "Poundthatass",
+    "value": 65565,
+    "in_faction": true
+  },
+  {
+    "id": 2937449,
+    "username": "Piraterer",
+    "value": 65231,
+    "in_faction": true
+  },
+  {
+    "id": 2740246,
+    "username": "Bub92278",
+    "value": 64286,
+    "in_faction": true
+  },
+  {
+    "id": 2671530,
+    "username": "windyswag",
+    "value": 61582,
+    "in_faction": true
+  },
+  {
+    "id": 2583853,
+    "username": "frkn",
+    "value": 60858,
+    "in_faction": true
+  },
+  {
+    "id": 2325329,
+    "username": "Crispyfoot",
+    "value": 53863,
+    "in_faction": true
+  },
+  {
+    "id": 2414438,
+    "username": "Caross",
+    "value": 53781,
+    "in_faction": true
+  },
+  {
+    "id": 2801440,
+    "username": "joschlumpf",
+    "value": 53660,
+    "in_faction": true
+  },
+  {
+    "id": 2250222,
+    "username": "Ronskip",
+    "value": 50594,
+    "in_faction": true
+  },
+  {
+    "id": 2802632,
+    "username": "Hoboblue",
+    "value": 47883,
+    "in_faction": true
+  },
+  {
+    "id": 2289809,
+    "username": "Murder_Hobo",
+    "value": 44372,
+    "in_faction": true
+  },
+  {
+    "id": 2069227,
+    "username": "GOTOYOURHOME",
+    "value": 40477,
+    "in_faction": true
+  },
+  {
+    "id": 3026725,
+    "username": "Neodork",
+    "value": 39722,
+    "in_faction": true
+  },
+  {
+    "id": 3193353,
+    "username": "xyicah",
+    "value": 38664,
+    "in_faction": true
+  },
+  {
+    "id": 442690,
+    "username": "BeardedBenny",
+    "value": 38528,
+    "in_faction": true
+  },
+  {
+    "id": 2671608,
+    "username": "AlfieG",
+    "value": 37960,
+    "in_faction": true
+  },
+  {
+    "id": 2655203,
+    "username": "FluffyVixen",
+    "value": 37347,
+    "in_faction": true
+  },
+  {
+    "id": 2080816,
+    "username": "Weasel",
+    "value": 37159,
+    "in_faction": true
+  },
+  {
+    "id": 446596,
+    "username": "Bucki",
+    "value": 36420,
+    "in_faction": true
+  },
+  {
+    "id": 2611425,
+    "username": "NeshoNeko",
+    "value": 35615,
+    "in_faction": true
+  },
+  {
+    "id": 2315415,
+    "username": "Litri",
+    "value": 34141,
+    "in_faction": true
+  },
+  {
+    "id": 3160215,
+    "username": "Anri_of_Astora",
+    "value": 29817,
+    "in_faction": true
+  },
+  {
+    "id": 2154655,
+    "username": "Khana",
+    "value": 27349,
+    "in_faction": true
+  },
+  {
+    "id": 3449771,
+    "username": "Driccy",
+    "value": 25687,
+    "in_faction": true
+  },
+  {
+    "id": 3301215,
+    "username": "Semykreen",
+    "value": 25569,
+    "in_faction": true
+  },
+  {
+    "id": 2680449,
+    "username": "BattlePrincess",
+    "value": 25143,
+    "in_faction": true
+  },
+  {
+    "id": 3476243,
+    "username": "BadalaKingkong",
+    "value": 25129,
+    "in_faction": true
+  },
+  {
+    "id": 3292894,
+    "username": "VEGABABY",
+    "value": 23862,
+    "in_faction": true
+  },
+  {
+    "id": 2730718,
+    "username": "Haungpeary",
+    "value": 22255,
+    "in_faction": true
+  },
+  {
+    "id": 3343429,
+    "username": "Znowhite",
+    "value": 21819,
+    "in_faction": true
+  },
+  {
+    "id": 3139132,
+    "username": "JuanPaulo",
+    "value": 21526,
+    "in_faction": true
+  },
+  {
+    "id": 2647214,
+    "username": "Balgor",
+    "value": 18797,
+    "in_faction": true
+  },
+  {
+    "id": 914683,
+    "username": "Droq",
+    "value": 17635,
+    "in_faction": true
+  },
+  {
+    "id": 3625719,
+    "username": "Raie",
+    "value": 17208,
+    "in_faction": true
+  },
+  {
+    "id": 3018158,
+    "username": "Stevan01",
+    "value": 16777,
+    "in_faction": true
+  },
+  {
+    "id": 2778055,
+    "username": "MrPorkenstien",
+    "value": 14744,
+    "in_faction": true
+  },
+  {
+    "id": 3116621,
+    "username": "BBCliff",
+    "value": 14670,
+    "in_faction": true
+  },
+  {
+    "id": 182040,
+    "username": "Excaliber_13",
+    "value": 14636,
+    "in_faction": true
+  },
+  {
+    "id": 2291737,
+    "username": "Special-Needs",
+    "value": 14077,
+    "in_faction": true
+  },
+  {
+    "id": 2677851,
+    "username": "Morot",
+    "value": 13654,
+    "in_faction": true
+  },
+  {
+    "id": 3255591,
+    "username": "xaqf",
+    "value": 13053,
+    "in_faction": true
+  },
+  {
+    "id": 1766417,
+    "username": "gajeela09",
+    "value": 13037,
+    "in_faction": true
+  },
+  {
+    "id": 3540076,
+    "username": "Mr_jeff14574",
+    "value": 12340,
+    "in_faction": true
+  },
+  {
+    "id": 3679190,
+    "username": "RubyFalls",
+    "value": 11833,
+    "in_faction": true
+  },
+  {
+    "id": 3442152,
+    "username": "Lockets",
+    "value": 11569,
+    "in_faction": true
+  },
+  {
+    "id": 3348136,
+    "username": "shrigma",
+    "value": 10988,
+    "in_faction": true
+  },
+  {
+    "id": 3342314,
+    "username": "Krytical",
+    "value": 10580,
+    "in_faction": true
+  },
+  {
+    "id": 517163,
+    "username": "poik9",
+    "value": 9944,
+    "in_faction": true
+  },
+  {
+    "id": 3575675,
+    "username": "highfishM",
+    "value": 9567,
+    "in_faction": true
+  },
+  {
+    "id": 3447443,
+    "username": "Jordanw1",
+    "value": 9446,
+    "in_faction": true
+  },
+  {
+    "id": 3161450,
+    "username": "Rubadubb",
+    "value": 7931,
+    "in_faction": true
+  },
+  {
+    "id": 1897963,
+    "username": "gypo",
+    "value": 7534,
+    "in_faction": true
+  },
+  {
+    "id": 3643062,
+    "username": "K3llogg",
+    "value": 7030,
+    "in_faction": true
+  },
+  {
+    "id": 2920790,
+    "username": "Shimmer12",
+    "value": 6841,
+    "in_faction": true
+  },
+  {
+    "id": 3760809,
+    "username": "RandomName1",
+    "value": 6433,
+    "in_faction": true
+  },
+  {
+    "id": 1387584,
+    "username": "---GHOST---",
+    "value": 5982,
+    "in_faction": true
+  },
+  {
+    "id": 3656242,
+    "username": "jonasgrind",
+    "value": 5311,
+    "in_faction": true
+  },
+  {
+    "id": 3877112,
+    "username": "McJoey",
+    "value": 4969,
+    "in_faction": true
+  },
+  {
+    "id": 2659592,
+    "username": "HanXeng",
+    "value": 4330,
+    "in_faction": true
+  },
+  {
+    "id": 3627853,
+    "username": "lonewanderer024",
+    "value": 4263,
+    "in_faction": true
+  },
+  {
+    "id": 3851236,
+    "username": "Psyden",
+    "value": 3897,
+    "in_faction": true
+  },
+  {
+    "id": 3759168,
+    "username": "AIshen",
+    "value": 3536,
+    "in_faction": true
+  },
+  {
+    "id": 3703949,
+    "username": "Downtowndave20",
+    "value": 2991,
+    "in_faction": true
+  },
+  {
+    "id": 3805208,
+    "username": "AuntGoo",
+    "value": 2702,
+    "in_faction": true
+  },
+  {
+    "id": 3231991,
+    "username": "Osein",
+    "value": 2584,
+    "in_faction": true
+  },
+  {
+    "id": 3529909,
+    "username": "For5aken",
+    "value": 1596,
+    "in_faction": true
+  },
+  {
+    "id": 1184733,
+    "username": "Pro_eobard",
+    "value": 1447,
+    "in_faction": true
+  },
+  {
+    "id": 3945856,
+    "username": "Rey2Fly",
+    "value": 1434,
+    "in_faction": true
+  },
+  {
+    "id": 3178876,
+    "username": "Khallie",
+    "value": 1380,
+    "in_faction": true
+  },
+  {
+    "id": 3967366,
+    "username": "Icks-B",
+    "value": 1234,
+    "in_faction": true
+  },
+  {
+    "id": 3841404,
+    "username": "Sleepy_Skyes",
+    "value": 1134,
+    "in_faction": true
+  },
+  {
+    "id": 3915266,
+    "username": "Lucifixion",
+    "value": 1097,
+    "in_faction": true
+  },
+  {
+    "id": 3653613,
+    "username": "SN00PYTOBY",
+    "value": 1078,
+    "in_faction": true
+  },
+  {
+    "id": 3926163,
+    "username": "J-Donuts",
+    "value": 941,
+    "in_faction": true
+  },
+  {
+    "id": 3900691,
+    "username": "Akytaro",
+    "value": 810,
+    "in_faction": true
+  },
+  {
+    "id": 2708168,
+    "username": "Hussc-",
+    "value": 802,
+    "in_faction": true
+  },
+  {
+    "id": 3628419,
+    "username": "Littlegman212",
+    "value": 797,
+    "in_faction": true
+  },
+  {
+    "id": 3838831,
+    "username": "Lev_Bron",
+    "value": 794,
+    "in_faction": true
+  },
+  {
+    "id": 3880785,
+    "username": "Gemicide",
+    "value": 666,
+    "in_faction": true
+  },
+  {
+    "id": 3852779,
+    "username": "DMG-",
+    "value": 450,
+    "in_faction": true
+  },
+  {
+    "id": 3069081,
+    "username": "Thornking",
+    "value": 425,
+    "in_faction": true
+  },
+  {
+    "id": 3820095,
+    "username": "Akijiro",
+    "value": 424,
+    "in_faction": true
+  },
+  {
+    "id": 3932437,
+    "username": "Stealthination",
+    "value": 382,
+    "in_faction": true
+  },
+  {
+    "id": 3619214,
+    "username": "GoldenVirginia",
+    "value": 366,
+    "in_faction": true
+  },
+  {
+    "id": 2932114,
+    "username": "Nitrx",
+    "value": 347,
+    "in_faction": true
+  },
+  {
+    "id": 3977638,
+    "username": "Vasavi_shakti",
+    "value": 269,
+    "in_faction": true
+  },
+  {
+    "id": 3943448,
+    "username": "Maddog1997",
+    "value": 174,
+    "in_faction": true
+  }
+]
