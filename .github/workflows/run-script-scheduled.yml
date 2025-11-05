@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: "0 3 * * *"
 
-
 permissions:
   contents: write
   actions: read
@@ -23,15 +22,20 @@ jobs:
 
       - name: Run Node script
         run: |
+          mkdir -p bs
           node script.js
           TIME=$(date +"%Y-%m-%d_%H-%M-%S")
-          mv stats.txt "stats_auto_${TIME}.txt" || mv challenge.json "stats_auto_${TIME}.txt"
+          if [ -f stats.txt ]; then
+            mv stats.txt "bs/stats_auto_${TIME}.txt"
+          elif [ -f challenge.json ]; then
+            mv challenge.json "bs/stats_auto_${TIME}.txt"
+          fi
 
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats_auto_*.txt
+          git add bs/stats_auto_*.txt
           git commit -m "Auto run: stats_auto file generated"
           git push
         env:
