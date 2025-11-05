@@ -1,8 +1,8 @@
 name: Scheduled Torn Stats Run
 
-#on:
-#  schedule:
-#    - cron: "*/10 12-18 * * *"
+on:
+  schedule:
+    - cron: "0 3 * * *"
 
 
 permissions:
